@@ -24,9 +24,10 @@ class MainActivity : AppCompatActivity() {
         txv.text = "Master分支"
     }
     override fun onTouchEvent(event: MotionEvent?): Boolean {
-        var txv:TextView = findViewById<TextView>(R.id.txv)
-        txv.text = "tcyangpu修改螢幕觸控"
+        var txv: TextView = findViewById<TextView>(R.id.txv)
+        txv.text = "s1081703修改螢幕觸控"
         return true
+    }
 
 
     }
